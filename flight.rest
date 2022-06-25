@@ -3,7 +3,7 @@
 GET http://localhost:3000/flight HTTP/1.1
 
 ###
-GET http://localhost:3000/flight/5c93434f-e180-4e7b-853b-a3ee0345f8c5  HTTP/1.1
+GET http://localhost:3000/flight/f513f332-ce80-41cf-85fe-d0c4f8157a1c  HTTP/1.1
 
 ### 
 POST http://localhost:3000/flight HTTP/1.1
@@ -17,13 +17,15 @@ Content-Type: application/json
 }
 
 ###
-PUT http://localhost:3000/flight/5c93434f-e180-4e7b-853b-a3ee0345f8c5  HTTP/1.1
+PUT http://localhost:3000/flight/f513f332-ce80-41cf-85fe-d0c4f8157a1c  HTTP/1.1
 Content-Type: application/json
 
 {
-"title": "flight to xhx",
-"price": 26900
+"title": "flight to Hawaii",
+"time": "5pm",
+"price": "26500",
+"date": "27-06-2022"
 }
 
 ###
-DELETE http://localhost:3000/flight/5c93434f-e180-4e7b-853b-a3ee0345f8c5 HTTP/1.1
+DELETE http://localhost:3000/flight/f513f332-ce80-41cf-85fe-d0c4f8157a1c HTTP/1.1
